@@ -13,7 +13,18 @@ openai = "^1.58.1"
 google-generativeai = "^0.8.3"
 tqdm = "^4.67.1"
 ipykernel = "^6.29.5"
+pillow = "^11.0.0"
+numpy = "^2.2.1"
+requests = "^2.32.3"
+torch = {version = "^2.5.1", platform = "cpu"}
+torchvision = {version = "^0.20.1", platform = "cpu"}
+transformers = "^4.47.1"
+sentencepiece = "^0.2.0"
 
+
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^75.7.0"
 
 [build-system]
 requires = ["poetry-core"]
